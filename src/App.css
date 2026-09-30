@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+
+nav a {
+  display: flex;
+  color: #4a5568;
+  text-decoration: none;
+  border-radius: 8px; /* Скругляем углы */
+}
+
+
+/* Активное состояние */
+nav a.active {
+  background-color: #ebf8ff; /* Нежно-синий фон */
+  color: #2b6cb0;            /* Насыщенный синий текст */
+  font-weight: 500;
+}
